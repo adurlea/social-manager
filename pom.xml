@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.social.manager</groupId>
-    <artifactId>facebook-manager-ws</artifactId>
+    <artifactId>social-manager</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+
+    <modules>
+        <module>social-manager-ws</module>
+        <module>facebook-manager-ws</module>
+    </modules>
 
 
 </project>
